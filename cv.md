@@ -27,11 +27,11 @@ Personal strengths: persistence and focus. I like to learn something new in diff
 
 ## **Code examples**
 
-    ```javascript
-    function multiply(a, b){
+```js
+function multiply(a, b){
     return a * b
-    }
-    ```
+}
+```
 
 ## **Work experience**
 
