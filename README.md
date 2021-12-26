@@ -1,1 +1,1 @@
-# rsschool-cv
+https://naysa3r.github.io/rsschool-cv/

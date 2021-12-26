@@ -1,0 +1,11 @@
+.construct {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 200px;
+    width: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
