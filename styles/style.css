@@ -86,7 +86,7 @@ h1 {
     margin: 0;
     font-size: 50px;
 }
-h2, h3 {
+h2, h3, p, pre {
     margin: 0;
 }
 
@@ -94,20 +94,23 @@ h2, h3 {
     font-size: 18px;
 }
 
-#contacts {
+.section_flex {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px 200px;
+    flex-wrap: nowrap;
+    padding: 40px 200px;
 }
 
 .header {
     align-self: center;
+    width: 15ch;
+    margin-right: 20px;
 }
 
 .content_right {
-    flex-grow: 1;
-    padding-left: 200px;
+    width: 80%;
+    align-self: center;
 }
 
-
+.colorized {
+    background-color: #2d353d;
+}
