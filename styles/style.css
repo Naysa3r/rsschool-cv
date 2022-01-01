@@ -8,8 +8,18 @@ body {
     
 }
 
-header{
+header {
     line-height: 30px;
+}
+
+footer {
+    line-height: 30px;
+    font-size: 15px;
+    padding: 20px;
+    display: flex;
+    padding: 20px 480px;
+    justify-content: space-between;
+    background-color:#313b46;
 }
 
 nav {
@@ -113,4 +123,21 @@ h2, h3, p, pre {
 
 .colorized {
     background-color: #2d353d;
+}
+
+.svg_position_github {
+    display: block;
+    background: url(../images/github.svg); 
+    background-size: cover;
+    height: 1.7em;
+    width: 1.7em;
+    align-self: center;
+}
+.svg_position_rsschool {
+    display: inline-block;
+    background: url(../images/rs_school.svg); 
+    background-size: cover;
+    height: 1.7em;
+    width: 4.7em;
+    align-self: center;
 }
