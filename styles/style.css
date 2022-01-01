@@ -57,3 +57,30 @@ ul {
 .menu_item {
     text-decoration:none;
 }
+
+#about {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 200px;
+    background-color:#313b46;
+    
+}
+.about_left {
+    flex-grow: 1;
+    align-self: center;
+    text-shadow: 10px 10px 10px #2b333b;
+}
+.image_style {
+    box-shadow: 10px 10px 10px #2b333b;
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+.subscribe_text {
+    font-size: 18px;
+}
