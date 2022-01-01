@@ -17,7 +17,8 @@ footer {
     font-size: 15px;
     padding: 20px;
     display: flex;
-    padding: 20px 480px;
+    flex-wrap: wrap;
+    padding: 20px 320px;
     justify-content: space-between;
     background-color:#313b46;
 }
@@ -27,10 +28,13 @@ nav {
     padding: 20px;
 }
 
-a, a:hover, a:visited, a:active {
+a, a:visited, a:active {
     color: inherit;
     text-decoration: none;
    }
+a:hover {
+    color: #ffe141;
+}
 
 ul {
     list-style: none;
@@ -51,7 +55,7 @@ ul {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: antiquewhite;
+    background-color: #ffe141;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
@@ -113,7 +117,8 @@ h2, h3, p, pre {
 .header {
     align-self: center;
     width: 15ch;
-    margin-right: 20px;
+    margin-right: 120px;
+    color: #ffe141
 }
 
 .content_right {
@@ -127,6 +132,7 @@ h2, h3, p, pre {
 
 .svg_position_github {
     display: block;
+    filter: invert(87%) sepia(19%) saturate(332%) hue-rotate(335deg) brightness(107%) contrast(96%);
     background: url(../images/github.svg); 
     background-size: cover;
     height: 1.7em;
@@ -135,9 +141,14 @@ h2, h3, p, pre {
 }
 .svg_position_rsschool {
     display: inline-block;
+    filter: invert(87%) sepia(19%) saturate(332%) hue-rotate(335deg) brightness(107%) contrast(96%);
     background: url(../images/rs_school.svg); 
     background-size: cover;
     height: 1.7em;
     width: 4.7em;
     align-self: center;
+}
+
+.yellowish {
+    color: #ffe141
 }
