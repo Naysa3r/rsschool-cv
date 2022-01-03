@@ -42,6 +42,10 @@ ul {
     margin: 0;
 }
 
+div {
+    line-height: 1.5em;
+}
+
 .hover-underline-animation {
     display: inline-block;
     position: relative;
